@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    /**exemplo**/
+    --cor0: #82D9A0;
+
+
+}
+
+
+
+body {
+    background-color: #82D9A0;
+}
+/**  "" :ROOT "" são as suas configurações raizes do site, facilita na hora das paletas de cores e tambem nas fontes importadas
+
+ex de como fica no root:
+
+--nomeia o que vc quiser aqui: aqui vem a parada 
+-- nome da fonte: fonte em si
+ 
+tem um exemplo em cima ai mané 
+
+
+**/
+
+
+header {
+    background-image: linear-gradient(to top, #1B5936, #32A65A);
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: auto;
+    box-shadow: 1px 1px 1px black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 20px;
+    margin: 0 auto 30px auto;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav{
+ 
+    padding: 10px;
+    padding-top: 30px;
+}
+
+nav > a{ color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{background-color: #49e27f;
+ }
+
+
+
+
+main {
+    background-color: aliceblue;
+    
+    min-width: 320px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 0 12px 12px;
+}
+
+@font-face {
+    font-family: fontii;
+    src: url(pacote-projeto-d010/idroid.otf);
+}
+
+h2 {
+    font-family: fontii;
+    color: #1B5936;
+    padding-left: 20px;
+}
+
+h3 {
+    font-family: fontii;
+    color: #1B5936;
+    color: var(--cor0);
+    padding-left: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.droid {
+    display: flex;
+    justify-content: center;
+}
+
+.pequena {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    margin: 10px auto 10px auto;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: #1B5936;
+    padding: 20px 10px;
+}
+
+#extra {
+    background-color: #82d9a09f;
+    margin: 20px 20px;
+    border-radius: 12px 12px 0 0;
+}
+
+h4 {
+    background-color: #32a65bd2;
+    padding:
+        20px;
+    margin-top: 0;
+    border-radius: 12px 12px 0 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    column-count: 2;
+    text-decoration: underline;
+}
+
+#ultimop {
+    padding-bottom: 10px;
+}
+
+ img{
+    width: 100%;
+ }
+footer{background-color: #1B5936; color: white; text-align: center; padding: 5px; }
+footer > a {text-decoration: none; color: white;}
+
+main strong{color: #1B5936;}
+
+main a { background-color: rgba(0, 245, 33, 0.582);}
+
+main a:hover{background-color: #82D9A0;}
+
+img{width: 100%;}
